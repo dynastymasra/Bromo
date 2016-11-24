@@ -1,0 +1,41 @@
+hash: 3aed9a55e2af57cbf7ad5bcbe3372006cccf40eec100ed20204665f0b65b4da3
+updated: 2016-11-24T14:54:17.872248767+07:00
+imports:
+- name: github.com/gin-gonic/gin
+  version: f931d1ea80ae95a6fc739213cdd9399bd2967fb6
+  subpackages:
+  - binding
+  - render
+- name: github.com/go-sql-driver/mysql
+  version: 665b83488b90b902ce0a305ef6652e599771cdf9
+- name: github.com/golang/protobuf
+  version: 2402d76f3d41f928c7902a765dfc872356dd3aad
+  subpackages:
+  - proto
+- name: github.com/itsjamie/gin-cors
+  version: 97b4a9da79331dfa2b6d35f4cdd1e50f5148859c
+- name: github.com/jinzhu/gorm
+  version: 066abcef408f2522f0a89952e44ab17eac176ed0
+  subpackages:
+  - dialects/mysql
+- name: github.com/jinzhu/inflection
+  version: 74387dc39a75e970e7a3ae6a3386b5bd2e5c5cff
+- name: github.com/joho/godotenv
+  version: 4ed13390c0acd2ff4e371e64d8b97c8954138243
+- name: github.com/manucorporat/sse
+  version: ee05b128a739a0fb76c7ebd3ae4810c1de808d6d
+- name: github.com/Sirupsen/logrus
+  version: 3ec0642a7fb6488f65b06f9040adc67e3990296a
+- name: golang.org/x/net
+  version: f315505cf3349909cdf013ea56690da34e96a451
+  subpackages:
+  - context
+- name: golang.org/x/sys
+  version: a646d33e2ee3172a661fc09bca23bb4889a41bc8
+  subpackages:
+  - unix
+- name: gopkg.in/go-playground/validator.v8
+  version: c193cecd124b5cc722d7ee5538e945bdb3348435
+- name: gopkg.in/yaml.v2
+  version: e4d366fc3c7938e2958e662b4258c7a89e1f0e3e
+testImports: []
