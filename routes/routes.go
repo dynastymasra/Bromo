@@ -12,8 +12,8 @@ func EndpointHandler(c *gin.RouterGroup) {
 
 	c.GET("/stickers", handlers.GetAllStickerPublic)
 	c.GET("/stickers/pack/:id", handlers.GetPackByIDHandler)
-	c.GET("/stickers/merchant/:id", handlers.GetMerchantStickerHandler)
-	c.GET("/stickers/merchants/active/:id", handlers.GetAllStickerActiveMerchant)
+	c.GET("/stickers/merchant/created/:id", handlers.GetMerchantStickerHandler)
+	c.GET("/stickers/merchant/active/:id", handlers.GetAllStickerActiveMerchant)
 
 	c.PUT("/stickers/merchant/active/:id", handlers.UpdateStatusHandler)
 
